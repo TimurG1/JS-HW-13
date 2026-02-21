@@ -25,7 +25,7 @@ const account = {
   },
 
   createTransaction(amount, type) {
-    return { id: this.randomId, amount, type, }
+    return { id: this.randomId(), amount, type, }
     },
   /*
    * Метод відповідає за додавання суми до балансу.
